@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "student_dashboard 2 (1)"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "a35794b4-d4e4-4abc-8659-0529a39c1e54"
+  }
+}
