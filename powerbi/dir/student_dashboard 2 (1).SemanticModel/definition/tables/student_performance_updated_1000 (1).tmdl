@@ -1,0 +1,144 @@
+table 'student_performance_updated_1000 (1)'
+	lineageTag: 598d30e1-a3ed-4570-9d4b-3055ef3bbb42
+
+	column StudentID
+		dataType: int64
+		formatString: 0
+		lineageTag: 6217026f-e54d-49f5-9fb7-d10c31a53e19
+		summarizeBy: count
+		sourceColumn: StudentID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Name
+		dataType: string
+		lineageTag: 34a7aa18-8679-4110-8d18-f49d7938acd1
+		summarizeBy: none
+		sourceColumn: Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Gender
+		dataType: string
+		lineageTag: a4763f3e-e144-4b8a-ac5d-66675cf405e0
+		summarizeBy: none
+		sourceColumn: Gender
+
+		annotation SummarizationSetBy = Automatic
+
+	column StudyHoursWeekly
+		dataType: int64
+		formatString: 0
+		lineageTag: 49c92b5f-fd6f-4b0e-a40a-4f0f54871962
+		summarizeBy: sum
+		sourceColumn: StudyHoursWeekly
+
+		annotation SummarizationSetBy = Automatic
+
+	column PreviousGrade
+		dataType: int64
+		formatString: 0
+		lineageTag: 5f9f5b61-4340-430c-864b-a00c6b204894
+		summarizeBy: sum
+		sourceColumn: PreviousGrade
+
+		annotation SummarizationSetBy = Automatic
+
+	column ExtracurricularActivities
+		dataType: int64
+		formatString: 0
+		lineageTag: fabfe463-1c30-40cf-890a-07452c0af44d
+		summarizeBy: sum
+		sourceColumn: ExtracurricularActivities
+
+		annotation SummarizationSetBy = Automatic
+
+	column ParentalSupport
+		dataType: string
+		lineageTag: 689ab14f-b87f-4c3e-94e4-7dd924df0064
+		summarizeBy: none
+		sourceColumn: ParentalSupport
+
+		annotation SummarizationSetBy = Automatic
+
+	column FinalScore
+		dataType: int64
+		formatString: 0
+		lineageTag: 31cabd91-12f1-4783-9060-87ab30e7cedf
+		summarizeBy: sum
+		sourceColumn: FinalScore
+
+		annotation SummarizationSetBy = Automatic
+
+	column StudyHoursDaily
+		dataType: double
+		lineageTag: c316231c-5fdc-4477-9f98-9798dc5f2eff
+		summarizeBy: sum
+		sourceColumn: StudyHoursDaily
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Attendance
+		dataType: int64
+		formatString: 0
+		lineageTag: 3d00c23c-d077-48a3-9364-d3540f3c0234
+		summarizeBy: sum
+		sourceColumn: Attendance
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Online Classes Taken'
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 64e962b7-d89e-44ea-ae01-d899e02cbb86
+		summarizeBy: none
+		sourceColumn: Online Classes Taken
+
+		annotation SummarizationSetBy = Automatic
+
+	column Estado = IF([FinalScore] >= 70, "Aprobado", "Reprobado")
+		lineageTag: 28a7255f-4ab5-4273-9360-5627ae99a2df
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Nivel =
+			
+			SWITCH(TRUE(),
+			[FinalScore] >= 85, "Alto",
+			[FinalScore] >= 70, "Medio",
+			"Bajo")
+		lineageTag: 4e664350-f64a-491e-89f8-823763f59700
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Genero_ES =
+			
+			IF([Gender] = "Male", "Hombre", "Mujer")
+		lineageTag: 65af1c52-e8be-48de-8b33-930f30f350c4
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'student_performance_updated_1000 (1)' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\ANDY\Downloads\student_performance_updated_1000 (1).csv"),[Delimiter=",", Columns=12, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"StudentID", Int64.Type}, {"Name", type text}, {"Gender", type text}, {"AttendanceRate", Int64.Type}, {"StudyHoursPerWeek", Int64.Type}, {"PreviousGrade", Int64.Type}, {"ExtracurricularActivities", Int64.Type}, {"ParentalSupport", type text}, {"FinalGrade", Int64.Type}, {"Study Hours", type number}, {"Attendance (%)", Int64.Type}, {"Online Classes Taken", type logical}}),
+				    #"Removed Blank Rows" = Table.SelectRows(#"Changed Type", each not List.IsEmpty(List.RemoveMatchingItems(Record.FieldValues(_), {"", null}))),
+				    #"Extracted Text After Delimiter" = Table.TransformColumns(#"Removed Blank Rows", {{"ParentalSupport", each Text.AfterDelimiter(_, " "), type text}}),
+				    #"Filtered Rows" = Table.SelectRows(#"Extracted Text After Delimiter", each ([FinalGrade] <> null)),
+				    #"Removed Columns" = Table.RemoveColumns(#"Filtered Rows",{"AttendanceRate"}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Removed Columns",{{"FinalGrade", "FinalScore"}, {"Attendance (%)", "Attendance"}, {"Study Hours", "StudyHoursDaily"}, {"StudyHoursPerWeek", "StudyHoursWeekly"}})
+				in
+				    #"Renamed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

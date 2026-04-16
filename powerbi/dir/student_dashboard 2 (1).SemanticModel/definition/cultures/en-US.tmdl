@@ -1,0 +1,1652 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "student_performance_updated_1000_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "student_performance_updated_1000 (1)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "student_performance_updated_1000 (1)": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1.student_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "student_performance_updated_1000 (1)",
+			          "ConceptualProperty": "StudentID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "student ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StudentID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "student": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "student identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "student identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "student identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "student credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "scholar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pupil": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "schoolboy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "schoolgirl": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "schoolchild": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "learner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1.name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "student_performance_updated_1000 (1)",
+			          "ConceptualProperty": "Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "Nombre": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "student_performance_updated_1000_1.gender": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "student_performance_updated_1000 (1)",
+			          "ConceptualProperty": "Gender"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gender": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sexuality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "sex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "Genero": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1.study_hours_weekly": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "student_performance_updated_1000 (1)",
+			          "ConceptualProperty": "StudyHoursWeekly"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "study hours weekly": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "study hour weekly": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "StudyHoursWeekly": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "weekly": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hours weekly": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hour weekly": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        },
+			        {
+			          "study hour publication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "study hour journal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "study hour mag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "hour publication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "hour journal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "hour mag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "study hour paper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "study hour broadsheet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "study hour tabloid": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "study hour daily": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1.previous_grade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "student_performance_updated_1000 (1)",
+			          "ConceptualProperty": "PreviousGrade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "previous grade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PreviousGrade": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "grade": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "previous evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "previous score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "previous mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "previous rating": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "previous ranking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rating": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ranking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "previous status": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1.extracurricular_activity": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "student_performance_updated_1000 (1)",
+			          "ConceptualProperty": "ExtracurricularActivities"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "extracurricular activity": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ExtracurricularActivities": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "activity": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "extracurricular movement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "extracurricular commotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "movement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "commotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "extracurricular action": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "extracurricular motion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "extracurricular bustle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "action": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "motion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bustle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1.parental_support": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "student_performance_updated_1000 (1)",
+			          "ConceptualProperty": "ParentalSupport"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "parental support": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ParentalSupport": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "support": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "parental assistance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "parental cooperation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "parental maintenance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "parental sustenance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "parental validation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "parental verification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "assistance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "cooperation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "maintenance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "sustenance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1.final_score": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "student_performance_updated_1000 (1)",
+			          "ConceptualProperty": "FinalScore"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "final score": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FinalScore": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "score": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "final notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "final slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "final groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "final nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "final cut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "final mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1.study_hours_daily": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "student_performance_updated_1000 (1)",
+			          "ConceptualProperty": "StudyHoursDaily"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "study hours daily": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "study hour daily": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "StudyHoursDaily": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "daily": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hours daily": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hour daily": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        },
+			        {
+			          "day-to-day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "regular": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "diurnal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1.attendance": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "student_performance_updated_1000 (1)",
+			          "ConceptualProperty": "Attendance"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "attendance": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "presence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "attending": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "turnout": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "audience": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "gate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "crowd": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "Asistencia": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1.online_class_taken": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "student_performance_updated_1000 (1)",
+			          "ConceptualProperty": "Online Classes Taken"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "online class taken": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "online classification taken": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "online category taken": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "online genre taken": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "online course taken": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "online grade taken": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "online lecture taken": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "online lesson taken": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "online period taken": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "online rank taken": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "online course group taken": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.604
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "student_performance_updated_1000_1_has_attendance": {
+			      "Binding": {
+			        "ConceptualEntity": "student_performance_updated_1000 (1)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "student_performance_updated_1000_1": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1"
+			          }
+			        },
+			        "student_performance_updated_1000_1.attendance": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1.attendance"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "student_performance_updated_1000_1"
+			            },
+			            "Object": {
+			              "Role": "student_performance_updated_1000_1.attendance"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "student_performance_updated_1000_1_have_attendances"
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1_has_study_hours_daily": {
+			      "Binding": {
+			        "ConceptualEntity": "student_performance_updated_1000 (1)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "student_performance_updated_1000_1": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1"
+			          }
+			        },
+			        "student_performance_updated_1000_1.study_hours_daily": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1.study_hours_daily"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "student_performance_updated_1000_1"
+			            },
+			            "Object": {
+			              "Role": "student_performance_updated_1000_1.study_hours_daily"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "student_performance_updated_1000_1_have_study_hours_dailies"
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1_has_final_score": {
+			      "Binding": {
+			        "ConceptualEntity": "student_performance_updated_1000 (1)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "student_performance_updated_1000_1": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1"
+			          }
+			        },
+			        "student_performance_updated_1000_1.final_score": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1.final_score"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "student_performance_updated_1000_1"
+			            },
+			            "Object": {
+			              "Role": "student_performance_updated_1000_1.final_score"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "student_performance_updated_1000_1_have_final_scores"
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1_has_parental_support": {
+			      "Binding": {
+			        "ConceptualEntity": "student_performance_updated_1000 (1)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "student_performance_updated_1000_1": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1"
+			          }
+			        },
+			        "student_performance_updated_1000_1.parental_support": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1.parental_support"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "student_performance_updated_1000_1"
+			            },
+			            "Object": {
+			              "Role": "student_performance_updated_1000_1.parental_support"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "student_performance_updated_1000_1_have_parental_supports"
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1_has_extracurricular_activity": {
+			      "Binding": {
+			        "ConceptualEntity": "student_performance_updated_1000 (1)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "student_performance_updated_1000_1": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1"
+			          }
+			        },
+			        "student_performance_updated_1000_1.extracurricular_activity": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1.extracurricular_activity"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "student_performance_updated_1000_1"
+			            },
+			            "Object": {
+			              "Role": "student_performance_updated_1000_1.extracurricular_activity"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "student_performance_updated_1000_1_have_extracurricular_activities"
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1_has_previous_grade": {
+			      "Binding": {
+			        "ConceptualEntity": "student_performance_updated_1000 (1)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "student_performance_updated_1000_1": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1"
+			          }
+			        },
+			        "student_performance_updated_1000_1.previous_grade": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1.previous_grade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "student_performance_updated_1000_1"
+			            },
+			            "Object": {
+			              "Role": "student_performance_updated_1000_1.previous_grade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "student_performance_updated_1000_1_have_previous_grades"
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1_has_study_hours_weekly": {
+			      "Binding": {
+			        "ConceptualEntity": "student_performance_updated_1000 (1)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "student_performance_updated_1000_1": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1"
+			          }
+			        },
+			        "student_performance_updated_1000_1.study_hours_weekly": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1.study_hours_weekly"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "student_performance_updated_1000_1"
+			            },
+			            "Object": {
+			              "Role": "student_performance_updated_1000_1.study_hours_weekly"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "student_performance_updated_1000_1_have_study_hours_weeklies"
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1_has_gender": {
+			      "Binding": {
+			        "ConceptualEntity": "student_performance_updated_1000 (1)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "student_performance_updated_1000_1": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1"
+			          }
+			        },
+			        "student_performance_updated_1000_1.gender": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1.gender"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "student_performance_updated_1000_1"
+			            },
+			            "Object": {
+			              "Role": "student_performance_updated_1000_1.gender"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "student_performance_updated_1000_1_have_genders"
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1_has_name": {
+			      "Binding": {
+			        "ConceptualEntity": "student_performance_updated_1000 (1)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "student_performance_updated_1000_1": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1"
+			          }
+			        },
+			        "student_performance_updated_1000_1.name": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1.name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "student_performance_updated_1000_1"
+			            },
+			            "Object": {
+			              "Role": "student_performance_updated_1000_1.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "student_performance_updated_1000_1_have_names"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "student_performance_updated_1000_1"
+			            },
+			            "Name": {
+			              "Role": "student_performance_updated_1000_1.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "names_are_names_IDs_of_student_performance_updated_1000_1"
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1_has_student_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "student_performance_updated_1000 (1)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "student_performance_updated_1000_1": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1"
+			          }
+			        },
+			        "student_performance_updated_1000_1.student_ID": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1.student_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "student_performance_updated_1000_1"
+			            },
+			            "Object": {
+			              "Role": "student_performance_updated_1000_1.student_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "student_performance_updated_1000_1_have_student_ID"
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1_is_online_class_taken": {
+			      "Binding": {
+			        "ConceptualEntity": "student_performance_updated_1000 (1)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "student_performance_updated_1000_1": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1"
+			          }
+			        },
+			        "student_performance_updated_1000_1.online_class_taken": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1.online_class_taken"
+			          }
+			        }
+			      },
+			      "Conditions": [
+			        {
+			          "Target": {
+			            "Role": "student_performance_updated_1000_1.online_class_taken"
+			          },
+			          "Operator": "Equals",
+			          "Value": {
+			            "Boolean": [
+			              true
+			            ]
+			          }
+			        }
+			      ],
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "student_performance_updated_1000_1"
+			            },
+			            "Adjectives": [
+			              {
+			                "online class taken": {
+			                  "State": "Generated"
+			                }
+			              },
+			              {
+			                "online-class-taken": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "some_student_performance_updated_1000_1_are_online_class_taken_student_performance_updated_1000_1"
+			        }
+			      ]
+			    },
+			    "student_performance_updated_1000_1_has_online_class_taken": {
+			      "Binding": {
+			        "ConceptualEntity": "student_performance_updated_1000 (1)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "student_performance_updated_1000_1": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1"
+			          }
+			        },
+			        "student_performance_updated_1000_1.online_class_taken": {
+			          "Target": {
+			            "Entity": "student_performance_updated_1000_1.online_class_taken"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "student_performance_updated_1000_1"
+			            },
+			            "Object": {
+			              "Role": "student_performance_updated_1000_1.online_class_taken"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "student_performance_updated_1000_1_have_online_class_taken"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

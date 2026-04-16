@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "dded8ef8b9536a245c63",
+  "position": {
+    "x": 230.12345679012333,
+    "y": 0.98765432098765438,
+    "z": 2000,
+    "height": 61.23456790123457,
+    "width": 1049.8765432098767,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Análisis de las predicciones del rendimiento estudiantil mediante un dashboard",
+                    "textStyle": {
+                      "fontFamily": "Times New Roman, serif",
+                      "fontSize": "24pt"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

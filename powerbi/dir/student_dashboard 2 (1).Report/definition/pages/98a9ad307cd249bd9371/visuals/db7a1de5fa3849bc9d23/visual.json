@@ -1,0 +1,134 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "db7a1de5fa3849bc9d23",
+  "position": {
+    "x": 20.487804878048781,
+    "y": 141.95121951219511,
+    "z": 4000,
+    "height": 263.41463414634148,
+    "width": 614.63414634146341,
+    "tabOrder": 4000
+  },
+  "visual": {
+    "visualType": "scatterChart",
+    "query": {
+      "queryState": {
+        "Series": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "student_performance_updated_1000 (1)"
+                    }
+                  },
+                  "Property": "ParentalSupport"
+                }
+              },
+              "queryRef": "student_performance_updated_1000 (1).ParentalSupport",
+              "nativeQueryRef": "ParentalSupport",
+              "active": true
+            }
+          ]
+        },
+        "X": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "student_performance_updated_1000 (1)"
+                    }
+                  },
+                  "Property": "StudyHoursWeekly"
+                }
+              },
+              "queryRef": "Sum(student_performance_updated_1000 (1).StudyHoursWeekly)",
+              "nativeQueryRef": "StudyHoursWeekly",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "student_performance_updated_1000 (1)"
+                    }
+                  },
+                  "Property": "FinalScore"
+                }
+              },
+              "queryRef": "Sum(student_performance_updated_1000 (1).FinalScore)",
+              "nativeQueryRef": "FinalScore"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "bubbles": [
+        {
+          "properties": {
+            "bubbleSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "-28D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dataPoint": [
+        {
+          "properties": {}
+        }
+      ],
+      "legend": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Relación entre horas de estudio y rendimiento final según apoyo parental'"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

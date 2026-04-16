@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "student_dashboard 2 (1)"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "9d308861-e317-4207-8fcd-a20c09a49634"
+  }
+}
